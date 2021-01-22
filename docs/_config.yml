@@ -23,7 +23,6 @@ twitter_username: TheMSSystem
 github_username:  open-mss
 
 # Build settings
-markdown: markdown
 theme: minima
 plugins:
   - jekyll-feed
