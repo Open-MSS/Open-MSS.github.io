@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New Developer
-permalink: /develop/Newby
+permalink: /develop/New_Developer
 exclude: true
 ---
 
