@@ -42,49 +42,47 @@ to leave out the 'source' here and below). :
 
     $ conda create -n mssenv python=3
     $ conda activate mssenv
-    $ conda install mamba
-    $ mamba install mss
+    (mssenv) $ conda install mamba
+    (mssenv) $ mamba install mss
 
 For updating an existing MSS installation to the current version, it is
 best to install it into a new environment. If an existing environment
 shall be updated, it is important to update all packages in this
-environment. :
+environment. 
 
     $ conda activate mssenv
-    $ conda update --all
-    $ mss
+    (mssenv) $ mamba update --all
 
-For further details mss-configuration
+## Usage
+### GUI
+To start the MSS UI you can lookup for "mss" on your desktop program manager or use a terminal  
 
-### Server based installation
+    (mssenv) $ mss
+
+> ![image](/assets/msui.png)
+
+The configuration is described in the section 
+[mss-configuration](https://mss.readthedocs.io/en/stable/usage.html#mss-configuration) 
+
+### mswms server
+To tryout the setup you can use demodata. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
+   
+    (mssenv) $ mswms_demodata --create
+    (mssenv) $ mswms
+
+This data is than available on localhost:8081.
+The capabilities can be readed on a [web browser](http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1) too. 
 
 
-For a wms server setup or mscolab setup you may want to have a dedicated
-user for the apache2 wsgi script. We suggest to create a mss user.
 
--   create a mss user on your system
--   login as mss user
--   create a *src* directory in /home/mss
--   cd src
--   get [miniconda](http://conda.pydata.org/miniconda.html) for Python 3
--   set execute bit on install script
--   execute script, enable environment in .bashrc
--   login again or export PATH="/home/mss/miniconda3/bin:\$PATH"
--   python --version should tell Python 3.X.X
--   conda create -n mssenv python=3
--   conda activate mssenv
--   conda install mamba
--   mamba install mss
+### mscolab server
+To tryout the setup you can use demodata. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
+   
+    (mssenv) $ mscolab db --init
+    (mssenv) $ mscolab db --seed
+    (mssenv) $ mscolab start
 
-For a simple test you could start the builtin standalone *mswms* and
-*mscolab* server:
+The service is than availale on localhost:8083 and can be verified by the [server status](http://127.0.0.1:8083/status) 
 
-    $ mswms &
-    $ mscolab start
-
-Point a browser for the verification of both servers installed on
-
-  - <http://127.0.0.1:8083/status> 
-  - <http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1>
-
-Further details in the components section on <http://mss.rtfd.io>
+## Further informations about installation options
+Please read details on <http://mss.rtfd.io>
