@@ -6,7 +6,7 @@ exclude: true
 ---
 
 
-IRC: <http://webchat.freenode.net/?channels=mss-dev> (This channel ist synced to our slack channel)
+IRC: <https://webchat.freenode.net/?channels=mss-dev> (This channel ist synced to our slack channel)
 
 Slack: [https://mss-devel.slack.com](https://mss-devel.slack.com) (invitation on request by email)
     
