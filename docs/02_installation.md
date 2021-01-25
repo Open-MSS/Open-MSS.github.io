@@ -45,6 +45,11 @@ to leave out the 'source' here and below). :
     (mssenv) $ conda install mamba
     (mssenv) $ mamba install mss
 
+Afterwards reactivate the environment, this sets all env variables needed.
+
+    (mssenv) $ conda deactivate
+    $ conda activate mssenv
+
 For updating an existing MSS installation to the current version, it is
 best to install it into a new environment. If an existing environment
 shall be updated, it is important to update all packages in this

@@ -39,7 +39,12 @@ to leave out the 'source' here and below). :
 
     $ conda create -n mssdev python=3 mamba
     $ conda activate mssdev
-    (mssdev)$ mamba install mss --only-deps
+    (mssdev) $ mamba install mss --only-deps
+
+Afterwards reactivate the environment, this sets all env variables needed.
+
+    (mssdev) $ conda deactivate
+    $ conda activate mssdev
 
     
 ## Create a fork
@@ -64,4 +69,4 @@ That is the reason why we only use the dependent packages from the installed sof
 For testing and building docs we provide a development requirements.
 Dependent on development state there may be other requirements files available.
 
-    (mssdev)$ mamba install --file MSS/requirements.d/development.txt
+    (mssdev) $ mamba install --file MSS/requirements.d/development.txt
