@@ -1,6 +1,6 @@
 ---
 layout: page
-title: New Developer
+title: Getting Started
 permalink: /develop/New_Developer
 exclude: true
 ---
