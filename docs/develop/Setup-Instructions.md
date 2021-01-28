@@ -56,9 +56,10 @@ For testing and building docs you need to install the these packages by running 
 
 MSS has 3 main components. These are MSUI (GUI), MSWMS (web map server) and MSCOLAB (collaboration server). You can run all 3 components individually on your system. (Before running any of the commands make sure you have activated your conda environment.)
 
-You need to first add the main mss folder which will be created in your home directory to your python path:
+You need to first add the main mss folder which will be created in your home directory to your python path. Go into the cloned repo and update your python path:
 
-    (mssdev) $ export PYTHONPATH="`pwd`:$HOME/mss"
+    $ cd MSS
+    $ export PYTHONPATH="`pwd`:$HOME/mss"
 
 To start the MSS PyQT application:
 
