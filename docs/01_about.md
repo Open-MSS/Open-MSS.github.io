@@ -65,6 +65,6 @@ Jülich. Improving the software will improve the quality of the research
 flights and will also enable its use for other scientific areas, e.g.
 planning of ship routes.
 
-> -   [Getting started](/develop/New_Developer)
-> -   [Contact](/develop/contact)
-
+> - [Documentation](https://mss.readthedocs.io/en/stable/index.html)
+> - [Contributing](/contributing)
+> - [Contact](/develop/contact)
