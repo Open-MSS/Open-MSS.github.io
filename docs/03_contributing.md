@@ -28,22 +28,8 @@ Once you've found the issue you want to work on you need to create a new branch 
 
 To start working, create a new git branch, write your code, commit it and push this branch to your fork. Now create a pull request to the Master Repo's `develop` or `stable` branch. All pull requests must pass the test pipeline before they are merged.
 
-## GSoC Participants
+## Writing your GSoC application
 
-MSS takes part in Google Summer of Code as a sub-organization of Python Software Foundation(PSF). If you're willing to participate in GSoC with us, please join the `#gsoc` channel on Slack. For proposal ideas you can view the [GSoC'21 project ideas list](/develop/GSOC2021/ideas).
-
-We recommend getting your final proposal reviewed by the mentors of that project before the proposal submission deadline so you can make changes in time.
-
-You can take a look at the following projects from previous years to get help for you proposal.
-
-### GSoC'20 Projects
-
-- [Aryan Gupta: Mission Support System : Enhance KML Support](https://github.com/Open-MSS/MSS/wiki/KML:-Enhance-KML-Support---GSoC-2020)
-
-- [Tanish Grover: Mission Support System: Mission Support Collaboration Improvements](https://github.com/Open-MSS/MSS/wiki/Mscolab:-Mission-Support-Collaboration-Improvements---GSoC-2020)
-
-### GSoC'19 Projects
-
-- [Anveshan Lal: Updating Geographical Plotting Routines](https://github.com/Open-MSS/MSS/wiki/Cartopy:-Updating-Geographical-Plotting-Routines----GSoC-2019)
-
-- [Shivashis Padhi: Collaborative editing of flight path in real-time](https://github.com/Open-MSS/MSS/wiki/Mscolab:-Collaborative-editing-of-flight-path-in-real-time---GSoC19)
+MSS takes part in Google Summer of Code as a sub-organization of Python Software Foundation(PSF). 
+If you're willing to participate in GSoC with us, please join the `#gsoc` channel on Slack. 
+For proposal ideas you can view the [GSoC'21 project ideas list](/develop/GSOC2021/ideas).
