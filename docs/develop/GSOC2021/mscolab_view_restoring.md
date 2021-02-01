@@ -9,7 +9,7 @@ exclude: true
 
 -   **Project description**:
 
-    The PyQT Gui of the MSS client can currently handle different views by one flight path. This means ones a new flight path is loaded and activated all views change to this flight path. 
+    The PyQT Gui of the MSS client can currently handle different views by one flight path. This means once a new flight path is loaded and activated all views change to this flight path. 
 
     MSS-mscolab should allow for storing and restoring the view configuration of multiple windows for the user for a mscolab-project. 
 A configuration should been selectable for another flightpath and project.
