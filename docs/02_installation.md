@@ -24,7 +24,7 @@ packages. This channel conda-forge has builds for osx-64, linux-64,
 win-64
 
 The conda-forge [github organization](https://conda-forge.github.io/)
-uses various automated continuos integration build processes.
+uses various automated continuous integration build processes.
 
 ### conda-forge channel
 
@@ -70,18 +70,18 @@ The configuration is described in the section
 [mss-configuration](https://mss.readthedocs.io/en/stable/usage.html#mss-configuration) 
 
 ### mswms server
-To tryout the setup you can use demodata. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
+To try out the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
    
     (mssenv) $ mswms_demodata --create
     (mssenv) $ mswms
 
-This data is than available on localhost:8081.
-The capabilities can be readed on a [web browser](http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1) too. 
+This data is then available on localhost:8081.
+The capabilities can be read on a [web browser](http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1) too. 
 
 
 
 ### mscolab server
-To tryout the setup you can use demodata. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
+To tryout the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
    
     (mssenv) $ mscolab db --init
     (mssenv) $ mscolab db --seed
@@ -89,5 +89,5 @@ To tryout the setup you can use demodata. Read about a [server based installatio
 
 The service is than availale on localhost:8083 and can be verified by the [server status](http://127.0.0.1:8083/status) 
 
-## Further informations about installation options
+## Further information about installation options
 Please read details on <http://mss.rtfd.io>
