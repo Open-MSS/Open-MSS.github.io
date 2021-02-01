@@ -12,7 +12,7 @@ exclude: true
 
     Currently, MSS expects the data to be delivered in the "expected" units, which vary from plot to plot. Using the metpy package and the contained unit-conversion routines, this can be fully automated.
 
-    This project shall include the metpy package to that purpose. The plotting framework shall be adapted to include the units and automatically convert these. Having metpy available, one can also discard several functions calculating meteorogical quantities by the ones contained in metpy. The unit tests need to be updated and the existing server infrastructure shall be updated to the new scheme as well.
+    This project shall include the metpy package to that purpose. The plotting framework shall be adapted to include the units and automatically convert these. Having metpy available, one can also discard several functions calculating meteorological quantities by the ones contained in metpy. The unit tests need to be updated and the existing server infrastructure shall be updated to the new scheme as well.
 
 -    **Skills**: Python, Git, pytest
 
