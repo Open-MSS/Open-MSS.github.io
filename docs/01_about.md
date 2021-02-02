@@ -9,7 +9,7 @@ scientists in the field of atmospheric science. The purpose is to have a
 tool that simplifies the process for planning a scientific flight in
 which parameters of the atmosphere are measured. The research aircrafts
 typically carry a comprehensive scientific payload comprised of data
-aquisition instruments by different companies and research institutions.
+acquisition instruments by different companies and research institutions.
 The measurement of relevant parameters, for example the chemical
 composition of trace gases, temperature or aerosol particle
 characteristics, are needed to improve the scientific understanding of
@@ -30,7 +30,7 @@ regions and aircraft traffic routes.
 MSS helps to optimize the scientific outcome of the research flights by
 displaying the planned flight route and the corresponding model
 parameters in the same platform for many discussed options. It does
-therefore reduce somehow the amount of flight hours that is needed to
+therefore reduce somehow the number of flight hours that is needed to
 answer a scientific question and thus saves in the end taxpayers money.
 In detail, this software helps to review a big amount of meteorological
 and model data by viewing the forecasted parameters of interest along
@@ -46,7 +46,7 @@ research aircraft. The flight path is designed by local and remote
 scientists based on meteorologic forecast data on the QT5 MSS gui
 application. A [publication by Rautenhaus et
 al.](http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf)
-summarizes the principle of this software. On the EuroPython conference
+summarizes the principle of this software. At the EuroPython conference,
 a [overview
 talk](https://pyvideo.org/europython-2017/mss-software-for-planning-research-aircraft-missions.html)
 about MSS was held.
