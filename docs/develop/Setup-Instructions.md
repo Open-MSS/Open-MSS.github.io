@@ -75,7 +75,7 @@ To start MSWMS:
 
 When running MSCOLAB for the first time you need to initialize your database (SQLite by default):
 
-    (mssdev) $ python mslib/mscolab/mscolab db --init
+    (mssdev) $ python mslib/mscolab/mscolab.py db --init
 
 If you want to seed your MSCOLAB database you can run:
 
