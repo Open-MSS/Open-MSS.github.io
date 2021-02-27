@@ -5,7 +5,7 @@ permalink: /develop/docker_images
 exclude: true
 ---
 
-For stable and develop branch of MSS we provide docker images on <https://hub.docker.com/u/yourmss>
+For stable and develop branch of MSS we provide docker images on <https://hub.docker.com/orgs/openmss/>
 
 
 A complete setup of the mswms server with demodata and the mscolab server with an empty database and the
