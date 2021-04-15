@@ -67,7 +67,7 @@ To start the MSS PyQT application:
 
 When running MSWMS for the first time. Use the following command to create some dummy data:
 
-    (mssdev) $ python mslib/mswms/demodata.py --create
+    (mssdev) $ python mslib/mswms/demodata.py --seed
 
 To start MSWMS:
 
