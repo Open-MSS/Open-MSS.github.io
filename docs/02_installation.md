@@ -31,18 +31,17 @@ uses various automated continuous integration build processes.
 Please add the channel conda-forge to your defaults:
 
     $ conda config --add channels conda-forge
-    $ conda config --add channels defaults
+
 
 The last channel added gets on top of the list. This gives the order:
-First search in default packages then in conda-forge.
+First search in conda-forge.
 
 You must install mss into a new environment to ensure the most recent
 versions for dependencies (On the Anaconda Prompt on Windows, you have
 to leave out the 'source' here and below). :
 
-    $ conda create -n mssenv python=3
+    $ conda create -n mssenv mamba
     $ conda activate mssenv
-    (mssenv) $ conda install mamba
     (mssenv) $ mamba install mss
 
 Afterwards reactivate the environment, this sets all env variables needed.
@@ -72,7 +71,7 @@ The configuration is described in the section
 ### mswms server
 To try out the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
    
-    (mssenv) $ mswms_demodata --create
+    (mssenv) $ mswms_demodata --seed
     (mssenv) $ mswms
 
 This data is then available on localhost:8081.
