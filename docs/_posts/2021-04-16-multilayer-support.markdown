@@ -2,7 +2,7 @@
 layout: post
 title:  "Multilayer support"
 date:   2021-04-30 15:25:30 +0100
-categories: MSS testing docker
+categories: MSS UI 
 ---
 
 We released version 3.0.0
