@@ -28,10 +28,16 @@ win-64
 Please add the channel conda-forge to your defaults:
 
     $ conda config --add channels conda-forge
-    $ conda config --add channels defaults
 
 The last channel added gets on top of the list. This gives the order:
-First search in default packages then in conda-forge.
+
+```
+channels:
+- conda-forge
+- defaults
+```
+
+First search in  conda-forge.
 
 You must install mss into a new environment to ensure the most recent
 versions for dependencies (On the Anaconda Prompt on Windows, you have
