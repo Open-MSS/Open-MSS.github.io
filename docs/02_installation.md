@@ -32,8 +32,14 @@ Please add the channel conda-forge to your defaults:
 
     $ conda config --add channels conda-forge
 
-
 The last channel added gets on top of the list. This gives the order:
+
+```
+channels:
+- conda-forge
+- defaults
+```
+
 First search in conda-forge.
 
 You must install mss into a new environment to ensure the most recent
@@ -55,6 +61,7 @@ shall be updated, it is important to update all packages in this
 environment. 
 
     $ conda activate mssenv
+    (mssenv) $ mamba update mss
     (mssenv) $ mamba update --all
 
 ## Usage
@@ -70,7 +77,7 @@ The configuration is described in the section
 
 ### mswms server
 To try out the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
-   
+
     (mssenv) $ mswms_demodata --seed
     (mssenv) $ mswms
 
@@ -81,7 +88,7 @@ The capabilities can be read on a [web browser](http://localhost:8081/?service=W
 
 ### mscolab server
 To tryout the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
-   
+
     (mssenv) $ mscolab db --init
     (mssenv) $ mscolab db --seed
     (mssenv) $ mscolab start
