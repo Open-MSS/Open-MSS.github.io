@@ -41,7 +41,3 @@ Slack: [https://mss-devel.slack.com](https://mss-devel.slack.com) (invitation on
 Email: <mss-info@fz-juelich.de>
 
 Please subscribe to <https://lists.fz-juelich.de/mailman/listinfo/mss-info>
-
-
-
-
