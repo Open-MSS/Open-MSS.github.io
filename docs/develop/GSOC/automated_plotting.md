@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GSOC021 Idea
-permalink: /develop/GSOC2021/automated_plotting
+title: GSOC Idea
+permalink: /develop/GSOC/automated_plotting
 exclude: true
 ---
 ## Automated Plotting

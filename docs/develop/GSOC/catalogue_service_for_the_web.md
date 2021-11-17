@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GSOC021 Idea
-permalink: /develop/GSOC2021/catalogue_service_for_the_web
+title: GSOC Idea
+permalink: /develop/GSOC/catalogue_service_for_the_web
 exclude: true
 ---
 

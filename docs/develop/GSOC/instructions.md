@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GSOC2021 Instructions
-permalink: /develop/GSOC2021/instructions
+title: GSOC Instructions
+permalink: /develop/GSOC/instructions
 exclude: true
 ---
 

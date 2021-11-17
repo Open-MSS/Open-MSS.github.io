@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GSOC021 Idea
-permalink: /develop/GSOC2021/modernize_fs_filepicker
+permalink: /develop/GSOC/modernize_fs_filepicker
 exclude: true
 ---
 

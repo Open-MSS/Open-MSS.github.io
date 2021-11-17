@@ -32,4 +32,4 @@ To start working, create a new git branch, write your code, commit it and push t
 
 MSS takes part in Google Summer of Code as a sub-organization of Python Software Foundation(PSF). 
 If you're willing to participate in GSoC with us, please join the `#gsoc` channel on Slack. 
-For proposal ideas you can view the [GSoC'21 project ideas list](/develop/GSOC2021/ideas).
+For proposal ideas you can view the [GSoC project ideas list](/develop/GSOC/ideas).
