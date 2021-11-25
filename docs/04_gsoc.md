@@ -1,9 +1,11 @@
 ---
 layout: page
-title: GSOC2021 ideas
-permalink: /develop/GSOC2021/ideas
+title: GSOC ideas
+permalink: /develop/GSOC/ideas
 exclude: false
 ---
+
+# In Preparation
 
 # Contacting the MSS team
 If you want to contribute to Mission Support System, 
@@ -28,25 +30,17 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 # Project Ideas
 
 ## Difficulty level: Hard
- * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC2021/catalogue_service_for_the_web)
- * [Update Geographical Plotting Routines](/develop/GSOC2021/update_geographical_plotting_routines)
- * [New View Mode, Providing 1-D Samples Along The Flight Path](/develop/GSOC2021/new_1D_view_mode) 
- * [Support Of Simple Trajectory Calculations](/develop/GSOC2021/support_of_simple_trajectory_calculations)
+ * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC/catalogue_service_for_the_web)
+ * [Update Geographical Plotting Routines](/develop/GSOC/update_geographical_plotting_routines)
+ * [Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
 
 
 ## Difficulty level: Medium
- * [msui: Improve Cient Side Overlays](/develop/GSOC2021/client_side_overlays)
- * [mscolab: View Restoring](/develop/GSOC2021/view_restoring)
- * [msui: Redesign Of The UI](/develop/GSOC2021/msui_ui_redisign)
- * [cli: Automated Plotting](/develop/GSOC2021/automated_plotting)
- * [msui: Generating A Tutorial For Use Of The MSS Client](/develop/GSOC2021/generate_a_tutorial)
- * [mscolab: Refactor Add Project](/develop/GSOC2021/refactor_add_project)
-  * [Modernize fs_filepicker](/develop/GSOC2021/modernize_fs_filepicker)
-
-## Difficulty level: Easy
- * [metpy Integration](/develop/GSOC2021/metpy_integration)
- * [Plotting Layer Gallery](/develop/GSOC2021/plotting_layer_gallery)
- * [mscolab: Project Or Userdriven Preselected Layer](/develop/GSOC2021/project_or_userdriven_preselected_layer)
+ * [msui: Improve Cient Side Overlays](/develop/GSOC/client_side_overlays)
+ * [msui: View Restoring](/develop/GSOC/view_restoring)
+ * [cli: Automated Plotting](/develop/GSOC/automated_plotting)
+ * [Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
+ 
 
 
 ## Your own idea
@@ -60,12 +54,18 @@ something in mind that you want to do. Ask people on the
 
 ## Writing your GSoC application
 
-Please follow the [Instructions](/develop/GSOC2021/instructions) filing your application
+Please follow the [Instructions](/develop/GSOC/instructions) filing your application
 
 We recommend getting your final proposal reviewed by the mentors of that project before the 
 proposal submission deadline so you can make changes in time.
 
 You can take a look at the following projects from previous years to get help for your proposal.
+
+### GSoC'21 Projects
+
+- [Hrithik Kumar Verma: Generating a tool chain tutorial for the MSUI user interface by automation operations : GSoC 2021](https://github.com/Open-MSS/MSS/wiki/Generating-a-tool-chain-tutorial-for-the-MSUI-user-interface-by-automation-operations-:-GSoC---2021)
+
+- [Aravind Murali: MSUI: UI Redesign GSOC 2021](https://github.com/Open-MSS/MSS/wiki/MSUI:-UI-Redesign---GSOC-2021)
 
 ### GSoC'20 Projects
 

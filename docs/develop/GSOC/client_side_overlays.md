@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GSOC021 Idea
-permalink: /develop/GSOC2021/client_side_overlays
+permalink: /develop/GSOC/client_side_overlays
 exclude: true
 ---
 

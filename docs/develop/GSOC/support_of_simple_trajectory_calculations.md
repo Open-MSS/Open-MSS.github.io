@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GSOC021 Idea
-permalink: /develop/GSOC2021/support_of_simple_trajectory_calculations
+permalink: /develop/GSOC/support_of_simple_trajectory_calculations
 exclude: true
 ---
 ## Support of simple trajectory calculations

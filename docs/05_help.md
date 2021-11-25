@@ -11,14 +11,20 @@ A detailed description is on [Mission Support System Documentation](https://mss.
 
 Some videos about the Mission Support System Collaboration Platform
 
-## MSCOLAB
+## Tutorials by Hrithik Kumar Verma
+During the GSOC project [tutorials](https://fz-juelich.sciebo.de/s/IzNGi24Ki68iV7t) were created.
+
+
+## Older videos
+
+### MSCOLAB
 
 This video shows the new interface for collaboration we introduced with 2.0.
 You can use it for simulataneously editing of flight paths.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eDBnULXvo7M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-## KML Docking Widget
+### KML Docking Widget
 
 This video shows the kml docking widget and some of its options.
 

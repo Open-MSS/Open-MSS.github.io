@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GSOC021 Idea
-permalink: /develop/GSOC2021/update_geographical_plotting_routines
+title: GSOC Idea
+permalink: /develop/GSOC/update_geographical_plotting_routines
 exclude: true
 ---
 ## Update geographical plotting routines
