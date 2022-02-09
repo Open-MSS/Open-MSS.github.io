@@ -7,7 +7,7 @@ exclude: true
 ## Update geographical plotting routines
 
 
--   **Project description**:
+- **Project description**:
 
     The MSS project currently relies on the python basemap package for
     supplying non-cylindric projections and plotting of geographical
@@ -28,13 +28,11 @@ exclude: true
     
     Improve cartopy
 
--   **Skills**: Python, Git
-
--   **Difficulty level**: Hard
-
--   **Related Readings/Links**:
+- **Duration**: 175h
+- **Skills**: Python, Git
+- **Difficulty level**: Hard
+- **Related Readings/Links**:
     * https://github.com/Open-MSS/MSS/issues/620
     * https://scitools.org.uk/cartopy/docs/latest/
-
--   **Potential mentors**:
+- **Potential mentors**:
     rb.proj@gmail.com, j.ungermann@fz-juelich.de, c.rolf@fz-juelich.de
