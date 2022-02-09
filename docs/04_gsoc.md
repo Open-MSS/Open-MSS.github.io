@@ -30,16 +30,19 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 # Project Ideas
 
 ## Difficulty level: Hard
- * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC/catalogue_service_for_the_web)
- * [Update Geographical Plotting Routines](/develop/GSOC/update_geographical_plotting_routines)
- * [Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
-
+ * [wms: Update Geographical Plotting Routines](/develop/GSOC/update_geographical_plotting_routines)
+ * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
+ * [msc: MQTT over Websocket](/develop/GSOC/mqtt_over_websocket)
+ * [msui: Overlay Measured Data](/develop/GSOC/overlay_measured_data)
 
 ## Difficulty level: Medium
- * [msui: Improve Cient Side Overlays](/develop/GSOC/client_side_overlays)
- * [msui: View Restoring](/develop/GSOC/view_restoring)
- * [cli: Automated Plotting](/develop/GSOC/automated_plotting)
- * [Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
+ * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC/catalogue_service_for_the_web)
+ * [cli: Advanced CLI Plotting](/develop/GSOC/automated_plotting)
+ * [msui: Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
+ * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
+ * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
+ * [msui/wms: UI and server improvements](/develop/GSOC/ui_server_improvements)
+ * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
  
 
 
