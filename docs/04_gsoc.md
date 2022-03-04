@@ -5,14 +5,16 @@ permalink: /develop/GSOC/ideas
 exclude: false
 ---
 
-# In Preparation
 
 # Contacting the MSS team
 If you want to contribute to Mission Support System, 
-please consider joining our Slack channel [https://mss-devel.slack.com](https://mss-devel.slack.com), 
-where we discuss everything related to the development of the project and we can answer 
-all your questions related to the project. You can join the channel by sending us an 
-email at <mss-info@fz-juelich.de>.
+You can talk to us on channel #mss by the [libera chat](https://web.libera.chat/?nick=Guest&#mss) 
+this is connected to our gsoc slack channel. Please stay connected, we are in different timezones. 
+To join us on slack please send  us an email to <mss-info@fz-juelich.de>. 
+On the  Slack channel [https://mss-devel.slack.com](https://mss-devel.slack.com) we will 
+discuss everything related to the development of the project and we can answer 
+all your questions related to the project. 
+
 
 # Questions 
 If you have any question please feel free to ask any of the mentors on our #gsoc slack channel.
@@ -37,12 +39,14 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 ## Difficulty level: Medium
  * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC/catalogue_service_for_the_web)
- * [cli: Advanced CLI Plotting](/develop/GSOC/automated_plotting)
  * [msui: Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
+ * [cli: Advanced CLI Plotting](/develop/GSOC/automated_plotting)
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
+ * [wms: mplement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui/wms: UI and server improvements](/develop/GSOC/ui_server_improvements)
  * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
+
  
 
 
