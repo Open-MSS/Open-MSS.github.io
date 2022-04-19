@@ -43,7 +43,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
  * [cli: Advanced CLI Plotting](/develop/GSOC/automated_plotting)
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
- * [wms: mplement and support color bars being served](/develop/GSOC/color_bars_served)
+ * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui/wms: UI and server improvements](/develop/GSOC/ui_server_improvements)
  * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
 
