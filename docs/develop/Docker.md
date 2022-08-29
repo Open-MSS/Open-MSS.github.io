@@ -5,7 +5,7 @@ permalink: /develop/docker_images
 exclude: true
 ---
 
-For stable and develop branch of MSS we provide docker images on <https://hub.docker.com/orgs/openmss/>
+For stable and develop branch of MSS we provide docker images on <https://hub.docker.com/u/openmss>
 
 
 A complete setup of the mswms server with demodata and the mscolab server with an empty database and the
@@ -16,7 +16,7 @@ mss ui can be started by a command.
  runs mswms with demodata, mscolab and the msui
 
     $ xhost +local:docker
-    $ docker run   --net=host -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix yourmss/stable MSS
+    $ docker run   --net=host -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix openmss/mss MSS
 
 
 
@@ -25,7 +25,7 @@ mss ui can be started by a command.
  runs mswms with demodata, mscolab and the msui
 
     $ xhost +local:docker
-    $ docker run   --net=host -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix yourmss/develop MSS
+    $ docker run   --net=host -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix openmss/mss-dev MSS
 
 
 
