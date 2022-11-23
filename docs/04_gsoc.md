@@ -30,21 +30,18 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 
 # Project Ideas
+... in progress
 
 ## Difficulty level: Hard
  * [wms: Update Geographical Plotting Routines](/develop/GSOC/update_geographical_plotting_routines)
  * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
- * [msc: MQTT over Websocket](/develop/GSOC/mqtt_over_websocket)
  * [msui: Overlay Measured Data](/develop/GSOC/overlay_measured_data)
 
 ## Difficulty level: Medium
- * [msui: Catalogue Service For The Web (CSW)](/develop/GSOC/catalogue_service_for_the_web)
  * [msui: Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
- * [cli: Advanced CLI Plotting](/develop/GSOC/automated_plotting)
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
- * [msui/wms: UI and server improvements](/develop/GSOC/ui_server_improvements)
  * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
 
  
@@ -67,6 +64,11 @@ We recommend getting your final proposal reviewed by the mentors of that project
 proposal submission deadline so you can make changes in time.
 
 You can take a look at the following projects from previous years to get help for your proposal.
+
+###  GSoC'22 Projects
+
+- [Sreelakshmi Jayarajan: Automated Command Line Plotting Tool : GSoC 2022](https://github.com/Open-MSS/MSS/wiki/Automated-Command-Line-Plotting-Tool-:-GSoC-2022)
+- [ Jatin Jain: UI and server improvements GSOC 2022](https://github.com/Open-MSS/MSS/wiki/UI-and-server-improvements-GSOC-2022)
 
 ### GSoC'21 Projects
 
