@@ -68,7 +68,7 @@ You can take a look at the following projects from previous years to get help fo
 ###  GSoC'22 Projects
 
 - [Sreelakshmi Jayarajan: Automated Command Line Plotting Tool : GSoC 2022](https://github.com/Open-MSS/MSS/wiki/Automated-Command-Line-Plotting-Tool-:-GSoC-2022)
-- [ Jatin Jain: UI and server improvements GSOC 2022](https://github.com/Open-MSS/MSS/wiki/UI-and-server-improvements-GSOC-2022)
+- [Jatin Jain: UI and server improvements GSOC 2022](https://github.com/Open-MSS/MSS/wiki/UI-and-server-improvements-GSOC-2022)
 
 ### GSoC'21 Projects
 
