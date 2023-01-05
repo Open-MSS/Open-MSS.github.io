@@ -11,8 +11,8 @@ exclude: true
   MSS has a collaboration server. For using this server we can create local users.
   We want to use existing identity providers by SAML 2.0.
   The project needs to implement a service provider (SP) on the server site into the existing
-  WSGI application and a authentification into the QT client application. On the QT client a login 
-  will trigger a browser for the login process. By exchanging a one time token the QT client user can 
+  WSGI application and an authentification into the QT client application. On the QT client a login 
+  will trigger a browser for the login process. By exchanging an one time token the QT client user can 
   afterwards authenticate.
   For testing a local identity provider (IdP) gets configured and a few tests become added.
 
