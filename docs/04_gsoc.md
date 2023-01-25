@@ -43,7 +43,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
-
+ * [msc: Implement a SAML 2.0 service provider (SP) into mscolab](/develop/GSOC/saml_for_mscolab)
  
 
 
