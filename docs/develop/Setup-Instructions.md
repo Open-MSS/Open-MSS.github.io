@@ -69,7 +69,7 @@ You need to first add the main mss folder which will be created in your home dir
 
 To start the MSS PyQT application:
 
-    (mssdev) $ python mslib/msui/mss_pyui.py
+    (mssdev) $ python mslib/msui/msui.py
 
 When running MSWMS for the first time. Use the following command to create some dummy data:
 

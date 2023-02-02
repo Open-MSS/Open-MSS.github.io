@@ -29,7 +29,7 @@ exclude: true
       * Verify by `pytest` in your MSS directory that tests are executed
       * `python workspace/MSS/mslib/mswms/demodata.py -h` (see output on screen)
       * `python workspace/MSS/mslib/mswms/mswms.py -h`
-      * `python workspace/MSS/mslib/msui/mss_pyui.py -h`
+      * `python workspace/MSS/mslib/msui/msui.py -h`
       * `python workspace/MSS/mslib/mscolab/server.py -h`
     
 
