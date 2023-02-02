@@ -9,7 +9,7 @@ exclude: true
 # Modernize fs_filepicker
 
 - **Project description**:
-   The fs_filepicker is a GUI which we use when we select in the mss_settings.json a configuration option `{ "filepicker_default": "fs" }`
+   The fs_filepicker is a GUI which we use when we select in the msui_settings.json a configuration option `{ "filepicker_default": "fs" }`
    Currently the fs_filepicker implements only a basic set of navigation elements for selecting a file and returns the fs url for accessing it.
    In the future we want to have it in a modern look and feel. 
    It should also be able to use [Non - Essential Methods of Pyfilesystem](https://docs.pyfilesystem.org/en/latest/implementers.html#non-essential-methods).
