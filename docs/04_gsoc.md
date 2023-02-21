@@ -33,7 +33,6 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 ... in progress
 
 ## Difficulty level: Hard
- * [wms: Update Geographical Plotting Routines](/develop/GSOC/update_geographical_plotting_routines)
  * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
  * [msui: Overlay Measured Data](/develop/GSOC/overlay_measured_data)
 
