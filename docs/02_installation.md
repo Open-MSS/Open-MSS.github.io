@@ -5,7 +5,7 @@ permalink: /install/
 ---
 
 
-![image](https://anaconda.org/conda-forge/mss/badges/installer/conda.svg)
+![image](https://img.shields.io/badge/Install%20with-conda-green.svg?style=flat-square)
 
 
 ## Install distributed version by conda
