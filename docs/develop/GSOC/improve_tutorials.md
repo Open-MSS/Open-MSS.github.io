@@ -8,16 +8,16 @@ exclude: true
 # msui: Improve Tutorials
 
 - **Project description**:
-    Improve the existing tutorial scripts. Reduce duplicated code lines. 
-    Create a construction kit for common features. e.g. create account, load first wms server.
-    Use the methods of the construction kit on a started MSS to automate this. 
+    Improve the existing tutorial scripts. 
     Merge Text / Audio with movies.
-    Make the tutorials creatable in background without screen. Recreate a bunch of tutorials on each pull request.
-    Add new tutorials.
+    Make the tutorials creatable in background without a screen,
+    e.g. xvfb-run on a docker setup  Create a bunch short new tutorials.
+    Add new tutorial scripts and potentially integrate the tutorials into the test suite,
+    as a sort of integration test.
     
-- **Duration**: 175h - 350h
+- **Duration**: 90h - 350h
 
-- **Skills**: Python, Qt, Git 
+- **Skills**: Python, Qt, Git, AI-Assistant
 
 - **Difficulty level**: Medium
 
@@ -25,4 +25,5 @@ exclude: true
   - https://mss.readthedocs.io/en/stable/tutorials.html
 
 - **Potential mentors**:
-    rb.proj@gmail.com
+    rb.proj@gmail.com, m.risse@fz-juelich.de
+    

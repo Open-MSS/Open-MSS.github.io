@@ -15,10 +15,12 @@ exclude: true
   Besides existing parameters new have to become enabled, e.g. mapsection, projection. 
   An extension to a larger project is to add an interactive user interface.
 
-* **Duration**: 175h - 350h
-* **Skills**: Python, QT, UI programming, Git
+* **Duration**: 90h - 350h
+* **Skills**: Python, QT, UI programming, Git, AI-Assistant
 * **Difficulty level**: Medium
 * **Related Readings/Links**:
   * https://mss.readthedocs.io/en/stable/gallery/index.html
   * https://mss.readthedocs.io/en/stable/mswms.html?highlight=gallery#standalone-server-setup
+  * https://mss.readthedocs.io/en/stable/tutorial.html
+  
 * **Potential mentors**: rb.proj@gmail.com, j.ungermann@fz-juelich.de

@@ -18,11 +18,12 @@ with a given set of parameters like climbing rate and ceiling altitude.
 The MSS server usually has already the data necessary for performing the calculations, but a simple trajectory 
 module would need to be implemented/connected. Also, a WMS extension will need to be specified and implemented.
 
-- **Duration**: 350h
-- **Skills**: Python, QT, UI programming, Git
+- **Duration**: 90-350h
+- **Skills**: Python, QT, UI programming, Git, AI-Assistant
 - **Difficulty level**: Hard
 - **Related Readings/Links**:
     - https://www.msc-ep.uni-bremen.de/services/lectures/practicals/pr_trajectories_2019.pdf
     - https://predict.habhub.org/
+    - https://mss.readthedocs.io/en/stable/tutorial.html
 - **Potential mentors**:
     j.ungermann@fz-juelich.de, c.rolf@fz-juelich.de

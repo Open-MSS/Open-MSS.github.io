@@ -14,17 +14,19 @@ exclude: true
   Such a View configuration consists of many windows with a complex set of configuration options that 
   are tedious to re-create after shutting down the application.
   The mscolab UI should allow for storing and restoring the view configuration of  
-  multiple windows for the user for an operation.
+  multiple windows for the user for an operation. 
+  This includes also to store all qsetting parameters on the server.
 
   A configuration should been selectable for another flightpath and operation. 
   There should also be a layout option given to any participant of the same flightpath,
   e.g. two topview connected to different wms servers. 
-  A creator of an operation should be able to set the layout of all participants.
+  A creator of an operation should be able to set the default layout of all participants.
 
-* **Duration**: 175h
-* **Skills**: Python, QT, UI programming, Git
+* **Duration**: 175-350h
+* **Skills**: Python, QT, UI programming, Git, AI-Assistant
 * **Difficulty level**: Medium
 * **Related Readings/Links**:
   * Ticket
   * QT Cache
-* **Potential mentors**: rb.proj@gmail.com, j.ungermann@fz-juelich.de
+  * https://mss.readthedocs.io/en/stable/tutorial.html
+* **Potential mentors**: rb.proj@gmail.com, j.ungermann@fz-juelich.de, m.risse@fz-juelich.de

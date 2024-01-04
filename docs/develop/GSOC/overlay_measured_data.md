@@ -13,10 +13,11 @@ exclude: true
   An option shall be implemented to overlay this data to the Linear Views.
   In addition scatter plots with two data types shall be enabled.  
   This plugin shall be integrated with the multilayer feature.
-* **Duration**: 175h - 350h
-* **Skills**: Python, Qt, Git
+* **Duration**: 90h - 350h
+* **Skills**: Python, Qt, Git, AI-Assistant
 * **Difficulty level**: Medium - Hard
 * **Related Readings/Links**:
   * https://mss.readthedocs.io/en/stable/gallery/index.html
   * https://mss.readthedocs.io/en/stable/gallery/plot_examples/plot_example_LS.html
+  * https://mss.readthedocs.io/en/stable/tutorial.html
 * **Potential mentors**: rb.proj@gmail.com, j.ungermann@fz-juelich.de

@@ -19,10 +19,11 @@ This task entails
 2. properly address "nice" displaying of the colorbar in the frontend for typical use-cases (i.e. less than 3 bars)
 3. Revamping the existing plotting layers to use this feature.
 
-- **Duration**: 175h
-- **Skills**: Python, QT, UI programming, Git
+- **Duration**: 90-350h
+- **Skills**: Python, QT, UI programming, Git, AI-Assistant
 - **Difficulty level**: Medium
 - **Related Readings/Links**:
   - https://github.com/Open-MSS/MSS/issues/1375
   - https://www.ogc.org/standards/wms
+  - https://mss.readthedocs.io/en/stable/tutorial.html
 - **Potential mentors**: rb.proj@gmail.com, j.ungermann@fz-juelich.de
