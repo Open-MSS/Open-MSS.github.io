@@ -14,7 +14,7 @@ permalink: /install/
 We are based on [miniforge](https://github.com/conda-forge/miniforge#download)   
 miniforge provides the minimal installers for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
 conda-forge is the default and only channel configured.
-MSS is available as conda package on the channel.
+MSS is available as a conda package on the channel.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
