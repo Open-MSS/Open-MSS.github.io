@@ -47,7 +47,7 @@ scientists based on meteorologic forecast data on the QT5 MSS gui
 application.
 Two publications are available, one by [Bauer et al.](https://gmd.copernicus.org/articles/15/8983/2022/gmd-15-8983-2022.pdf) 
 and the other by [Rautenhaus et al.](http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf),
-which summarizes the principle of this software. On the EuroPython conference a
+which summarize the principle of this software. On the EuroPython conference a
 [overview talk](https://pyvideo.org/europython-2017/mss-software-for-planning-research-aircraft-missions.html)
 about MSS was held.
 
