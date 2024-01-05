@@ -19,7 +19,7 @@ MSS is available as a package on the channel conda-forge.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
-This channel conda-forge has builds for osx-64, linux-64, win-64
+The conda-forge channel has builds for osx-64, linux-64 and win-64.
 
 You must install mss into a new environment to ensure the most recent
 versions for dependencies. :
