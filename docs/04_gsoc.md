@@ -37,12 +37,10 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
  * [msui: Overlay Measured Data](/develop/GSOC/overlay_measured_data)
 
 ## Difficulty level: Medium
- * [msui: Modernize fs_filepicker](/develop/GSOC/modernize_fs_filepicker)
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
- * [msc: Implement a SAML 2.0 service provider (SP) into mscolab](/develop/GSOC/saml_for_mscolab)
  
 
 
@@ -63,6 +61,12 @@ We recommend getting your final proposal reviewed by the mentors of that project
 proposal submission deadline so you can make changes in time.
 
 You can take a look at the following projects from previous years to get help for your proposal.
+
+### GSoC'23 Projects
+
+- [Shubh Gaur: Mission Support System(MSS) : UI-improvements : GSOC 2023](https://github.com/Open-MSS/MSS/wiki/UI%E2%80%90improvements-GSOC-2023)
+- [Nilupul Manodya: Mission Support System : Implement a SAML 2.0 service provider (SP) into mscolab : GSOC 2023](https://github.com/Open-MSS/MSS/wiki/Implement-a-SAML-2.0-service-provider-(SP)-into-mscolab-:-GSOC-2023)
+
 
 ###  GSoC'22 Projects
 

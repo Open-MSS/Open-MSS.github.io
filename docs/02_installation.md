@@ -11,56 +11,37 @@ permalink: /install/
 ## Install distributed version by conda
 
 
-[Anaconda](https://www.continuum.io/why-anaconda) provides an
-enterprise-ready data analytics platform that empowers companies to
-adopt a modern open data science analytics architecture.
-
-MSS is available as anaconda package on the channel.
+We are based on [miniforge](https://github.com/conda-forge/miniforge#download),
+which provides the minimal installers for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
+conda-forge is the default and only channel configured.
+MSS is available as a conda package on the channel.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
-The conda-forge packages are based on defaults and other conda-forge
-packages. This channel conda-forge has builds for osx-64, linux-64,
-win-64
+The conda-forge channel has builds for osx-64, linux-64 and win-64.
 
 The conda-forge [github organization](https://conda-forge.github.io/)
 uses various automated continuous integration build processes.
 
-### conda-forge channel
-
-Please add the channel conda-forge to your defaults:
-
-    $ conda config --add channels conda-forge
-
-The last channel added gets on top of the list. This gives the order:
-
-```
-channels:
-- conda-forge
-- defaults
-```
-
-First search in conda-forge.
 
 You must install mss into a new environment to ensure the most recent
-versions for dependencies (On the Anaconda Prompt on Windows, you have
-to leave out the 'source' here and below). :
+versions for dependencies:
 
-    $ conda create -n mssenv mamba
-    $ conda activate mssenv
-    (mssenv) $ mamba install mss
+    $ mamba create -n mssenv mss
+    $ mamba activate mssenv
+    (mssenv) $ mss -h
 
 Afterwards reactivate the environment, this sets all env variables needed.
 
-    (mssenv) $ conda deactivate
-    $ conda activate mssenv
+    (mssenv) $ mamba deactivate
+    $ mamba activate mssenv
 
 For updating an existing MSS installation to the current version, it is
 best to install it into a new environment. If an existing environment
 shall be updated, it is important to update all packages in this
 environment. 
 
-    $ conda activate mssenv
+    $ mamba activate mssenv
     (mssenv) $ mamba update mss
     (mssenv) $ mamba update --all
 

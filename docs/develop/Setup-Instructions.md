@@ -7,52 +7,39 @@ exclude: true
 
 ## Environment Setup
 
-### Install distributed version by conda
+### Install distributed version by mamba
 
-Install Anaconda on your system.
+Install miniforge on your system.
 
-[Anaconda](https://www.continuum.io/why-anaconda) provides an
-enterprise-ready data analytics platform that empowers companies to
-adopt a modern open data science analytics architecture.
+[Miniforge](https://github.com/conda-forge/miniforge#download) provides the minimal installers 
+for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
+conda-forge is the default and only channel configured.
 
-MSS is available as anaconda package on the channel.
+MSS is available as a package on the channel conda-forge.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
-The conda-forge packages are based on defaults and other conda-forge
-packages. This channel conda-forge has builds for osx-64, linux-64,
-win-64
-
-### conda-forge channel
-
-Please add the channel conda-forge to your defaults:
-
-    $ conda config --add channels conda-forge
-
-The last channel added gets on top of the list. This gives the order:
-
-```
-channels:
-- conda-forge
-- defaults
-```
-
-First search in  conda-forge.
+The conda-forge channel has builds for osx-64, linux-64 and win-64.
 
 You must install mss into a new environment to ensure the most recent
-versions for dependencies (On the Anaconda Prompt on Windows, you have
-to leave out the 'source' here and below). :
+versions for dependencies. :
 
-    $ conda create -n mssdev python=3 mamba
-    $ conda activate mssdev
-    (mssdev) $ mamba install mss --only-deps
+    $ mamba create -n mssdev mss --only-deps
+    $ mamba activate mssdev
+    (mssdev) $ 
 
 Afterwards reactivate the environment, this sets all env variables needed.
 
-    (mssdev) $ conda deactivate
-    $ conda activate mssdev
+    (mssdev) $ mamba deactivate
+    $ mamba activate mssdev
 
 ### Installing development specific packages
+
+Between the released and the develop version we have differences in used packages:
+
+    git diff stable develop -- localbuild/meta.yaml
+    
+Update accordingly of the output.
 
 For testing and building docs you need to install the these packages by running the following command:
 
@@ -60,7 +47,8 @@ For testing and building docs you need to install the these packages by running 
 
 ## Running The Application
 
-MSS has 3 main components. These are MSUI (GUI), MSWMS (web map server) and MSCOLAB (collaboration server). You can run all 3 components individually on your system. (Before running any of the commands make sure you have activated your conda environment.)
+MSS has 3 main components. These are MSUI (GUI), MSWMS (web map server) and MSCOLAB (collaboration server). You can run all 3 components individually on your system. 
+(Before running any of the commands make sure you have activated your environment.)
 
 You need to first add the main mss folder which will be created in your home directory to your python path. Go into the cloned repo and update your python path:
 
