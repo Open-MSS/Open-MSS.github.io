@@ -56,7 +56,7 @@ exclude: true
 -   What's the process for submitting your first bug fix?
 
     We like to have a fork of the project, creating a branch based on the develop/stable branch, 
-    claiming an issue, working on that issue, talking about that, sending a pull request
+    claiming an issue, working on that issue, talking about that, sending a pull request.
 
 
 -   Where should students look to find easy issues to try out?
