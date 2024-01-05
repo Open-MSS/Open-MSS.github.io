@@ -11,7 +11,7 @@ exclude: true
 
 Install miniforge on your system.
 
-[miniforge](https://github.com/conda-forge/miniforge#download) provides the minimal installers 
+[Miniforge](https://github.com/conda-forge/miniforge#download) provides the minimal installers 
 for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
 conda-forge is the default and only channel configured.
 
