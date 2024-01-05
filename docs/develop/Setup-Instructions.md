@@ -15,7 +15,7 @@ Install miniforge on your system.
 for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
 conda-forge is the default and only channel configured.
 
-MSS is available as package on the channel conda-forge.
+MSS is available as a package on the channel conda-forge.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
