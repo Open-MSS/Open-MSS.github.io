@@ -17,7 +17,7 @@ exclude: true
 -   Are there any unusual libraries/applications that need to be
     installed first?
 
-    We are based on [miniforge](https://github.com/conda-forge/miniforge#download)  and [conda-forge](https://conda-forge.org/). 
+    We are based on [miniforge](https://github.com/conda-forge/miniforge#download) and [conda-forge](https://conda-forge.org/). 
     All development is done with python 3.
 
     On linux install `xvfb` and the conda package `pyvirtualdisplay`. This is used to run tests on a virtual display.  
