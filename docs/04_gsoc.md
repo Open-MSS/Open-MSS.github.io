@@ -40,8 +40,11 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
- * [msui/msc: View Layout and Restoring](/develop/GSOC/view_restoring)
- 
+ * [msui: View Layout and Restoring](/develop/GSOC/view_restoring)
+ * [msui: GUI for Automated Plotting](/develop/GSOC/gui_for_automated_plotting)
+ * [msui: Improve multiple flightpath docking widget](/develop/GSOC/improve_multiple_flightpath_docking_widget)
+ * [msui: Improve MSUI](/develop/GSOC/improve_msui)
+ * [msui/mscolab: Improve User Managment](/develop/GSOC/improve_user_managment)
 
 
 ## Your own idea
