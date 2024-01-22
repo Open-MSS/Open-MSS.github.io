@@ -30,7 +30,7 @@ var to access the directory for running pytest on that dir.
     ~/workspace/MSS$ docker pull openmss/testing-develop  # get recent version
     ~/workspace/MSS$ docker run -it --mount src=`pwd`,target=`pwd`,type=bind -e MSSDIR=`pwd` openmss/testing-develop  # mount dir into container, create env var MSSDIR with dir
     (base) root@78f42ac9ded7:/# cd $MSSDIR  # change directory to the mounted dir
-    (base) root@78f42ac9ded7:/# conda activate mss-develop-env  # activate env
+    (base) root@78f42ac9ded7:/# mamba activate mss-develop-env  # activate env
     (mss-develop-env) root@78f42ac9ded7:/# xvfb-run pytest -vv -n 6 --dist loadfile tests  # run pytest
 
 
