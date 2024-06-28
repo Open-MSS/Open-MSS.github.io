@@ -8,9 +8,13 @@ categories: MSS update release
 ## All Components of MSS
 
 With installing MSS you get all components described in our [docs](https://mss.readthedocs.io/en/stable/components.html). 
+- MSUI (Mission Support User Interface): user interface to connect to WMS services and MSColab servers
+- MSWMS/WMS: based Web Map Service 1.1.1/1.3.0 interface to provide forecast data from numerical weather predictions to the MSUI
+- MSColab: collaborative environment for MSUI, with additional features such as chat-messages and keeping track of the made changes.
+
 Everything is included in the [package](https://anaconda.org/conda-forge/mss).
 
-You can setup your own WMS servers and provide your own plotting methods. Also you can setup your own collaboration server. 
+You can setup your own WMS servers and provide your own plotting methods. Also you can setup your own MSColab collaboration server. 
 And of course you can use our MSUI.
 
 
@@ -70,7 +74,7 @@ The syntax of the server configuration of MSColab and MSWMS has changed.
 We removed the class definition. For MSColab we have added new
 configuration options related to SAML2. The change on the MSColab server
 also required changes on the MSUI handling the MSColab login. These
-changes are not backwards compatible. Server and Client must use
+changes are not backwards compatible. MSColab Server and MSUI Client must use
 versions >=9.0.0. We introduced a MSCOLAB_auth_user_name in the
 users configuration which simplifies the login process.
 
@@ -99,7 +103,7 @@ Mscolab Operations in use for more than 30 days, move to an inactive
 list. The initial idea for multiple flightpaths on topview stems from
 bkirbus. GSoC mentors were Reimar Bauer, Jörn Ungermann, Sonja Gisinger
 
-With MSS 9.0.0 we base our installation on miniforge. This has mamba in
+With MSS 8.0.0 we base our installation on miniforge. This has mamba in
 the base environment. Mambaforge is discouraged of September 2023.
 
 All changes: <https://github.com/Open-MSS/MSS/milestone/81?closed=1>
