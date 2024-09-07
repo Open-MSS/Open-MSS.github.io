@@ -11,6 +11,7 @@
   {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.googleplus_username -%}<li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
-  <li><a href="https://web.libera.chat/?nick=Guest&#mss"><span class="svg-icon">{% include irc.svg %}</span><span class="username">&nbsp;&nbsp;#mss-dev</span></a></li>
+  <li><a href="https://web.libera.chat/?nick=Guest&#mss-gsoc"><span class="svg-icon">{% include irc.svg %}</span><span class="username">&nbsp;&nbsp;#mss-gsoc</span></a></li>
+  <li><a href="https://web.libera.chat/?nick=Guest&#mss-general"><span class="svg-icon">{% include irc.svg %}</span><span class="username">&nbsp;&nbsp;#mss-general</span></a></li>
   <li><a href="https://mss.readthedocs.io/en/stable/"><span class="svg-icon">{% include rtfd.svg %}</span><span class="username">&nbsp;&nbsp;mss.rtfd.io</span></a></li>
 </ul>
