@@ -30,7 +30,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 
 # Project Ideas
-... in progress
+... in progress for 2025
 
 ## Difficulty level: Hard
  * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
@@ -41,11 +41,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui: View Layout and Restoring](/develop/GSOC/view_restoring)
- * [msui: GUI for Automated Plotting](/develop/GSOC/gui_for_automated_plotting)
- * [msui: Improve multiple flightpath docking widget](/develop/GSOC/improve_multiple_flightpath_docking_widget)
- * [msui: Improve MSUI](/develop/GSOC/improve_msui)
  * [msui/mscolab: Improve User Managment](/develop/GSOC/improve_user_managment)
-
 
 ## Your own idea
 
@@ -64,6 +60,12 @@ We recommend getting your final proposal reviewed by the mentors of that project
 proposal submission deadline so you can make changes in time.
 
 You can take a look at the following projects from previous years to get help for your proposal.
+
+### GSoC'24 Projects
+
+- [Aryan Gupta: (MSS) msui: Improve MSUI : GSOC2024](https://github.com/Open-MSS/MSS/wiki/Aryan-Gupta:-(MSS)-msui:-Improve-MSUI-:-GSOC2024)
+- [Preetam Sundar Das: MISSION SUPPORT SYSTEM(MSS): GUI FOR AUTOMATED PLOTTING : GSOC2024](https://github.com/Open-MSS/MSS/wiki/Preetam-Sundar-Das:-MISSION-SUPPORT-SYSTEM(MSS):-GUI-FOR-AUTOMATED-PLOTTING-:-GSOC2024)
+- [Rohit Prasad: Mission Support System: Improve multiple flightpath docking widget : GSOC2024](https://github.com/Open-MSS/MSS/wiki/Rohit-Prasad:-Mission-Support-System:-Improve-multiple-flightpath-docking-widget-:-GSOC2024)
 
 ### GSoC'23 Projects
 

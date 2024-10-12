@@ -14,7 +14,7 @@ exclude: true
   Such a View configuration consists of many windows with a complex set of configuration options that 
   are tedious to re-create after shutting down the application.
   The mscolab UI should allow for storing and restoring the view configuration of  
-  multiple windows for the user for an operation. 
+  multiple windows for the user for an operation. The autoplot dockingwidget may use this configuration too.
   This includes also to store all qsetting parameters on the server.
 
   A configuration should been selectable for another flightpath and operation. 
