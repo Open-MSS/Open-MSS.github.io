@@ -12,7 +12,7 @@ A detailed description is on [Mission Support System Documentation](https://mss.
 Some videos about the Mission Support System Collaboration Platform
 
 ## Tutorials
-During the GSOC by Hrithik Kumar Verma the base for the MSS tutorials got created.
+During GSOC 2021 the base for the MSS tutorials got created by [Hrithik Kumar Verma](https://github.com/Open-MSS/MSS/wiki/Generating-a-tool-chain-tutorial-for-the-MSUI-user-interface-by-automation-operations-:-GSoC---2021).
 
 [![img.png](assets/waypoint_tutorial.png)](https://mss.readthedocs.io/en/stable/_images/tutorial_waypoints.mp4)
 
