@@ -51,12 +51,17 @@ which summarize the principle of this software. On the EuroPython conference a
 [overview talk](https://pyvideo.org/europython-2017/mss-software-for-planning-research-aircraft-missions.html)
 about MSS was held.
 
-The MSS software includes a template for a Webmap server providing own
-model data, but it can also connect to several Open Web Service (OWS)
-data providers. The architecture of the software package enables its use
-in countries with a poor internet connection. For our atmospheric
-measurements, one often has to go to remote regions that lack high speed
-internet.
+The Mission Support System (MSS) software comes with an inbuilt template
+for a Webmap server (WMS) that supplies its own model data, yet it maintains 
+connectivity with numerous Open Web Service (OWS) data providers. 
+This software's architecture is engineered to function efficiently even in 
+regions with weak internet connectivity, a feature that becomes crucial 
+when conducting atmospheric measurements in remote areas with limited 
+high-speed internet access. Further enhancing collaboration, the software
+incorporates a real-time collaboration feature through the  
+Mission Support Collaboration server (MSColab), enabling multiple clients 
+to simultaneously work on a single flight plan stored on the server.
+
 
 MSS is developed and used mainly by scientists of various institutions
 involved in scientific aircraft based missions, including universities
