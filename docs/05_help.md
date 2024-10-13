@@ -16,8 +16,8 @@ During GSOC 2021 the base for the MSS tutorials got created by [Hrithik Kumar Ve
 
 [![img.png](assets/waypoint_tutorial.png)](https://mss.readthedocs.io/en/stable/_images/tutorial_waypoints.mp4)
 
-For further tutorialss:
-https://mss.readthedocs.io/en/stable/tutorial.html
+For further tutorials:
+<https://mss.readthedocs.io/en/stable/tutorial.html>
 
 ## Contact US
 
