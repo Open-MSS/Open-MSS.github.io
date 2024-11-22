@@ -34,14 +34,17 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 ## Difficulty level: Hard
  * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
- * [msui: Overlay Measured Data](/develop/GSOC/overlay_measured_data)
 
 ## Difficulty level: Medium
  * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
+ * [cli: Use MSS Figure Objects](/develop/GSOC/figure_objects)
  * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
  * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
  * [msui: View Layout and Restoring](/develop/GSOC/view_restoring)
+ * [msui/mswms/mscolab: Replace pyfilesystem2](/develop/GSOC/replace_pyfilesystem2)
  * [msui/mscolab: Improve User Managment](/develop/GSOC/improve_user_managment)
+ * [tests/mscolab/mswms: Flask native configuration](/develop/GSOC/flask_native)
+ * [tests: Replace Multiprocessing](/develop/GSOC/replace_multiprocessing)
 
 ## Your own idea
 

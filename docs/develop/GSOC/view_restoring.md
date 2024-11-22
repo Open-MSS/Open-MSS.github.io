@@ -12,7 +12,8 @@ exclude: true
   The PyQT Gui of the MSS client can currently handle different views by one flight path. 
   This means once a new flight path is loaded and activated all views change to this flight path. 
   Such a View configuration consists of many windows with a complex set of configuration options that 
-  are tedious to re-create after shutting down the application.
+  are tedious to re-create after shutting down the application. The configuration of individual views
+  can be stored using the autoplot docking widget on a local mssautoplot.json. 
   The mscolab UI should allow for storing and restoring the view configuration of  
   multiple windows for the user for an operation. The autoplot dockingwidget may use this configuration too.
   This includes also to store all qsetting parameters on the server.
