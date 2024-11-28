@@ -24,7 +24,7 @@ To get started, you can go through issues labelled as [good first issue](https:/
 
 ## Writing Code and Making Pull Requests
 
-Once you've found the issue you want to work on you need to create a new branch on your local clone of the project and start working on it. As a general rule of thumb, bug fixes go to the `stable` branch while enhancements and other new features go to the `develop` branch. Generally it is mentioned in the issue itself which branch the fix needs to go. Otherwise you can always ask us on Slack.
+Once you've found the issue you want to work on you need to create a new branch on your local clone of the project and start working on it. The versioning scheme we use is [SemVer](http://semver.org/).  As a general rule of thumb, bug fixes go to the `stable` branch while enhancements and other new features go to the `develop` branch. Generally it is mentioned in the issue itself which branch the fix needs to go. Otherwise you can always ask us on Slack.
 
 To start working, create a new git branch, write your code, commit it and push this branch to your fork. Now create a pull request to the Master Repo's `develop` or `stable` branch. All pull requests must pass the test pipeline before they are merged.
 
