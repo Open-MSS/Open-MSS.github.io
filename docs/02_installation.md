@@ -104,8 +104,9 @@ We describe the global installation.
 ### GUI
 To start the MSS UI you have to use a terminal.
 
-
+```sh
 $ msui
+```
 
 > ![image](/assets/msui.png)
 
@@ -115,8 +116,10 @@ The configuration is described in the section
 ### mswms server
 To try out the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
 
+```sh
     $ mswms_demodata --seed
     $ mswms
+```
 
 This data is then available on localhost:8081.
 The capabilities can be read on a [web browser](http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1) too. 
@@ -126,8 +129,10 @@ The capabilities can be read on a [web browser](http://localhost:8081/?service=W
 ### mscolab server
 To tryout the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
 
+```sh
     $ mscolab db --seed
     $ mscolab start
+```
 
 The service is than availale on localhost:8083 and can be verified by the [server status](http://127.0.0.1:8083/status) 
 
