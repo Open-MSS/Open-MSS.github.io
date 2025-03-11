@@ -17,10 +17,8 @@ exclude: true
 -   Are there any unusual libraries/applications that need to be
     installed first?
 
-    We are based on [miniforge](https://github.com/conda-forge/miniforge#download) and [conda-forge](https://conda-forge.org/). 
+    We are based on [pixi](https://pixi.sh/latest/) and [conda-forge](https://conda-forge.org/).
     All development is done with python 3.
-
-    On linux install `xvfb` and the conda package `pyvirtualdisplay`. This is used to run tests on a virtual display.  
 
 
 -   How do I have to setup my environment?
@@ -28,10 +26,10 @@ exclude: true
     Dependent on the IDE there are differences, we try to describe this for anycase.
  
       * Verify by `pytest` in your MSS directory that tests are executed
-      * `python workspace/MSS/mslib/mswms/demodata.py -h` (see output on screen)
-      * `python workspace/MSS/mslib/mswms/mswms.py -h`
-      * `python workspace/MSS/mslib/msui/msui.py -h`
-      * `python workspace/MSS/mslib/mscolab/server.py -h`
+      * `mswms_demodata -h` (see output on screen)
+      * `mswms -h`
+      * `msui -h`
+      * `mscolab -h`
     
 
 -   What type of source control do you use? 

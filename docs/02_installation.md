@@ -8,48 +8,105 @@ permalink: /install/
 ![image](https://img.shields.io/badge/Install%20with-conda-green.svg?style=flat-square)
 
 
-## Install distributed version by conda
+## Install by pixi
 
 
-We are based on [miniforge](https://github.com/conda-forge/miniforge#download),
-which provides the minimal installers for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
-conda-forge is the default and only channel configured.
-MSS is available as a conda package on the channel.
+The Mission Support System (MSS) including a Web Map Service (MSWMS), a Collaboration Server (MSColab)
+and a Graphical User Interface (MSUI) is available as a [conda-forge](https://anaconda.org/conda-forge/mss) package.
 
-[conda-forge/mss](https://anaconda.org/conda-forge/mss)
+This channel conda-forge has builds for linux-64, osx-64, win-64, osx-arm64
 
-The conda-forge channel has builds for osx-64, linux-64 and win-64.
+The conda-forge [github organization](https://conda-forge.github.io/) uses various automated
+continuous integration build processes.
 
-The conda-forge [github organization](https://conda-forge.github.io/)
-uses various automated continuous integration build processes.
+In 2024, the workflow that has packages co-installed from Anaconda's channel and conda-forge is no longer supported.
+We recommend since version 10.0.0 of MSS to use [pixi](https://pixi.sh/latest/) for an installation.
+Get **pixi** from https://pixi.sh/latest/ for your operation system.
 
+You can now decide if you want to install **mss** as global or a project.
 
-You must install mss into a new environment to ensure the most recent
-versions for dependencies:
+### Global Installation
 
-    $ mamba create -n mssenv mss
-    $ mamba activate mssenv
-    (mssenv) $ mss -h
+You can install **mss** globally without defining a project first.
+This method is practical when you are interested in starting the client and don't need server configurations.
 
-Afterwards reactivate the environment, this sets all env variables needed.
+```sh
+pixi global install mss
+```
 
-    (mssenv) $ mamba deactivate
-    $ mamba activate mssenv
+#### Usage
 
-For updating an existing MSS installation to the current version, it is
-best to install it into a new environment. If an existing environment
-shall be updated, it is important to update all packages in this
-environment. 
+```sh
+msui
+mswms -h
+mscolab -h
+mssautoplot -h
+```
 
-    $ mamba activate mssenv
-    (mssenv) $ mamba update mss
-    (mssenv) $ mamba update --all
+#### Updating
+
+```sh
+pixi global update mss
+```
+
+### Project Installation
+
+Initialize a new project and navigate to the project directory:
+
+```sh
+pixi init MSS
+cd MSS
+```
+
+Use the shell command to activate the environment and start a new shell in there.
+
+```sh
+pixi shell
+```
+
+Add the **mss** dependencies from conda-forge.
+
+```sh
+(MSS) pixi add mss
+```
+
+#### Usage
+
+Always, when you want to start **mss** programs after its installation,
+you have to activate the environment by `pixi shell` in the project dir.
+On the very first start of **msui**, it takes a bit longer because it setup fonts.
+
+```sh
+cd MSS
+pixi shell
+```
+
+```sh
+(MSS) msui
+(MSS) mswms -h
+(MSS) mscolab -h
+(MSS) mssautoplot -h
+```
+
+#### Upgrading
+
+```sh
+cd MSS
+pixi shell
+(MSS) pixi upgrade mss
+```
+
 
 ## Usage
-### GUI
-To start the MSS UI you can lookup for "mss" on your desktop program manager or use a terminal  
 
-    (mssenv) $ mss
+We describe the global installation.
+
+### GUI
+To start the MSS UI you have to use a terminal.
+
+```sh
+$ msui
+```
 
 > ![image](/assets/msui.png)
 
@@ -59,8 +116,10 @@ The configuration is described in the section
 ### mswms server
 To try out the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/deployment.html). 
 
-    (mssenv) $ mswms_demodata --seed
-    (mssenv) $ mswms
+```sh
+    $ mswms_demodata --seed
+    $ mswms
+```
 
 This data is then available on localhost:8081.
 The capabilities can be read on a [web browser](http://localhost:8081/?service=WMS&request=GetCapabilities&version=1.1.1) too. 
@@ -70,9 +129,10 @@ The capabilities can be read on a [web browser](http://localhost:8081/?service=W
 ### mscolab server
 To tryout the setup you can use demo data. Read about a [server based installation](https://mss.readthedocs.io/en/stable/mscolab.html).
 
-    (mssenv) $ mscolab db --init
-    (mssenv) $ mscolab db --seed
-    (mssenv) $ mscolab start
+```sh
+    $ mscolab db --seed
+    $ mscolab start
+```
 
 The service is than availale on localhost:8083 and can be verified by the [server status](http://127.0.0.1:8083/status) 
 

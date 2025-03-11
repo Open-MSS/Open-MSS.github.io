@@ -16,7 +16,7 @@ MSS is completely written in Python. The GUI is built using [PyQT5](https://www.
 
 ## Setup Instructions
 
-You can quickly setup MSS on your machine by following the steps given in our [setup instructions](/develop/Setup-Instructions). If you want to use Docker you can follow the steps in our [docker setup guide](/develop/docker_images). For more details, you can read [Mission Support System’s Documentation](https://mss.readthedocs.io/en/stable)
+You can quickly setup MSS on your machine by following the steps given in our [setup instructions](/develop/Setup-Instructions).
 
 ## Finding Issues
 

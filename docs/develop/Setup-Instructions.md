@@ -5,86 +5,93 @@ permalink: /develop/Setup-Instructions
 exclude: true
 ---
 
-## Environment Setup
+## Setup for development
 
-### Install distributed version by mamba
+Pixi is a package management tool for developers. It allows the developer to install libraries and
+applications in a reproducible way. Use pixi cross-platform, on Windows, Mac and Linux.
 
-Install miniforge on your system.
+Install pixi on your system.
 
-[Miniforge](https://github.com/conda-forge/miniforge#download) provides the minimal installers 
-for Conda and Mamba specific to conda-forge. The packages of the base are from the conda-forge channel.
-conda-forge is the default and only channel configured.
+[Pixi](https://pixi.sh) provides the minimal installers
+specific to conda-forge. conda-forge is the default channel configured.
 
 MSS is available as a package on the channel conda-forge.
 
 [conda-forge/mss](https://anaconda.org/conda-forge/mss)
 
-The conda-forge channel has builds for osx-64, linux-64 and win-64.
+The conda-forge channel has builds for osx-64, osx-arm64, linux-64 and win-64.
 
-You must install mss into a new environment to ensure the most recent
-versions for dependencies. :
 
-    $ mamba create -n mssdev mss --only-deps
-    $ mamba activate mssdev
-    (mssdev) $ 
+#### Setup an environment for development
 
-Afterwards reactivate the environment, this sets all env variables needed.
+The dependencies necessary to get a working development environment for MSS are specified in pixi.toml and pixi.lock inside the repository.
+This means you can get a shell with all required packages installed using
 
-    (mssdev) $ mamba deactivate
-    $ mamba activate mssdev
+```sh
+    pixi shell -e dev
+```
 
-### Installing development specific packages
+Afterwards, a call to e.g.
 
-Between the released and the develop version we have differences in used packages:
+```sh
+    msui
+```
 
-    git diff stable develop -- localbuild/meta.yaml
-    
-Update accordingly of the output.
+will run the development version of msui.
 
-For testing and building docs you need to install the these packages by running the following command:
+You can also use pixi's "run" subcommand to directly run a command in the development environment, like so::
 
-    (mssdev) $ mamba install --file MSS/requirements.d/development.txt
+```sh
+    pixi run -e dev msui
+```
+
 
 ## Running The Application
 
 MSS has 3 main components. These are MSUI (GUI), MSWMS (web map server) and MSCOLAB (collaboration server). You can run all 3 components individually on your system. 
 (Before running any of the commands make sure you have activated your environment.)
 
-You need to first add the main mss folder which will be created in your home directory to your python path. Go into the cloned repo and update your python path:
+You need to first add the mss folder where additional configurations can become provided.
+There the mswms_demodata adds the mswms demo server configuration. 
 
+```sh
     $ cd MSS
-    $ export PYTHONPATH="`pwd`:$HOME/mss"
+    $ pixi shell -e dev
+    $ (MSS) export PYTHONPATH=$HOME/mss"
+```
 
 To start the MSS PyQT application:
-
-    (mssdev) $ python mslib/msui/msui.py
-
+```sh
+    (MSS) $ msui
+```
 When running MSWMS for the first time. Use the following command to create some dummy data:
-
-    (mssdev) $ python mslib/mswms/demodata.py --seed
-
+```sh
+    (MSS) $ mswms_demodata --seed
+```
 To start MSWMS:
-
-    (mssdev) $ python mslib/mswms/mswms.py
-
+```sh
+    (MSS) $ mswms
+```
 When running MSCOLAB for the first time you need to initialize your database (SQLite by default):
 
-    (mssdev) $ python mslib/mscolab/mscolab.py db --init
-
+```sh
+    (MSS) $ mscolab db --init
+```
 If you want to seed your MSCOLAB database you can run:
 
-    (mssdev) $ python mslib/mscolab/mscolab.py db --seed
+```sh
+    (MSS) $ mscolab db --seed
+```
 
 To start MSCOLAB server:
 
-    (mssdev) $ python mslib/mscolab/mscolab.py start
-
+```sh
+    (MSS) $ mscolab start
+```
 ## Running Tests
-
-On linux install the conda package pyvirtualdisplay and xvfb from your linux package manager. This is used to run tests on a virtual display. If you don’t want tests redirected to the xvfb display just setup an environment variable:
-
-    $ export TESTS_VISIBLE=TRUE
 
 To run the tests:
 
-    (mssdev) $ pytest --cov mslib
+```sh
+    (MSS) $ pytest --cov mslib
+```
