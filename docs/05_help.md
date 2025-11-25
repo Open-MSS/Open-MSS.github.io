@@ -19,9 +19,8 @@ During GSOC 2021 the base for the MSS tutorials got created by [Hrithik Kumar Ve
 For further tutorials:
 <https://mss.readthedocs.io/en/stable/tutorial.html>
 
-## Contact US
+## Contact us
 
-IRC: <https://web.libera.chat/?nick=Guest&#mss-gsoc> (This channel is synced to our gsoc slack channel)  
 IRC: <https://web.libera.chat/?nick=Guest&#mss-general> (This channel is synced to our general slack channel)
 
 Slack: [https://mss-devel.slack.com](https://mss-devel.slack.com) (invitation on request by email)

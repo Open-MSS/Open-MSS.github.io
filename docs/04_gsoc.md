@@ -6,6 +6,9 @@ exclude: false
 ---
 
 
+:warning: **For the 2026 GSoC cycle, we've decided to take a break.** [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/26/gsoc-stepping-back-for-now.html)
+
+
 # Contacting the MSS team
 If you want to contribute to Mission Support System, 
 You can talk to us on channel #mss by the [libera chat](https://web.libera.chat/?nick=Guest&#mss) 
@@ -30,28 +33,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 
 # Project Ideas
-... in progress for 2025
-
-## Difficulty level: Hard
- * [wms: Support Of Simple Trajectory Calculations](/develop/GSOC/support_of_simple_trajectory_calculations)
-
-## Difficulty level: Medium
- * [cli: Improve Tutorials](/develop/GSOC/improve_tutorials)
- * [cli: Use MSS Figure Objects](/develop/GSOC/figure_objects)
- * [wms: Plot Gallery integrated](/develop/GSOC/integrated_plot_gallery)
- * [wms: Implement and support color bars being served](/develop/GSOC/color_bars_served)
- * [msui: View Layout and Restoring](/develop/GSOC/view_restoring)
- * [msui/mswms/mscolab: Replace pyfilesystem2](/develop/GSOC/replace_pyfilesystem2)
- * [msui/mscolab: Improve User Managment](/develop/GSOC/improve_user_managment)
- * [tests/mscolab/mswms: Flask native configuration](/develop/GSOC/flask_native)
- * [tests: Replace Multiprocessing](/develop/GSOC/replace_multiprocessing)
-
-## Your own idea
-
-The above projects are just suggestions --- it is also very good to suggest a project idea of your own if you have
-something in mind that you want to do. Ask people on the 
-[mailing list](https://lists.fz-juelich.de/mailman/listinfo/mss-info) for suggestions in this case.
-
+For the 2026 GSoC cycle, we've decided to take a break. [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/26/gsoc-stepping-back-for-now.html)
 
 
 
