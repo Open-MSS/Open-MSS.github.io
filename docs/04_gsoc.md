@@ -6,7 +6,7 @@ exclude: false
 ---
 
 
-:warning: **For the 2026 GSoC cycle, we've decided to take a break.** [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/26/gsoc-stepping-back-for-now.html)
+**For the 2026 GSoC cycle, we've decided to take a break.** [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/25/stepping_back_from_gsoc_for_now.html)
 
 
 # Contacting the MSS team
@@ -33,8 +33,7 @@ We have labled small sized issues as "good first issue" on <https://github.com/O
 
 
 # Project Ideas
-For the 2026 GSoC cycle, we've decided to take a break. [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/26/gsoc-stepping-back-for-now.html)
-
+For the 2026 GSoC cycle, we've decided to take a break. [See our recent blog post!](https://open-mss.github.io/gsoc/stepping/back/for/now/2025/11/25/stepping_back_from_gsoc_for_now.html)
 
 
 ## Writing your GSoC application
